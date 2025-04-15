@@ -59,7 +59,7 @@ const ShowcaseSection = () => {
           <div className='project-list-wrapper overflow-hidden'>
             <div className='project' ref={project2}>
              <div className='image-wrapper bg-[#ffefdb]'>
-             <a href="#" target="_blank" rel="noopener noreferrer">
+             <a href="https://net-client.onrender.com" target="_blank" rel="noopener noreferrer">
                 <img 
                   className="transition-all duration-300 ease-in-out group-hover:brightness-75 group-hover:scale-105"
                   src='/images/Netflax.png' 
