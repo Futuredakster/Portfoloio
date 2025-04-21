@@ -71,15 +71,15 @@ const ShowcaseSection = () => {
             </div>
             <div className='project' ref={project3}>
              <div className='image-wrapper bg-[#ffe7eb]'>
-             <a href="#" target="_blank" rel="noopener noreferrer">
+             <a href="https://chatfront-qq37.onrender.com" target="_blank" rel="noopener noreferrer">
                 <img 
                   className="transition-all duration-300 ease-in-out group-hover:brightness-75 group-hover:scale-105"
-                  src='/images/project3.png' 
+                  src='/images/chats.png' 
                   alt="YC Directory" 
                 />
               </a>
              </div>
-             <h2>YC Directory</h2>
+             <h2>Chat App</h2>
             </div>
           </div>
         </div>
