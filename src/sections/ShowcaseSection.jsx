@@ -81,6 +81,18 @@ const ShowcaseSection = () => {
              </div>
              <h2>Chat App</h2>
             </div>
+             <div className='project' ref={project3}>
+             <div className='image-wrapper bg-[#ffe7eb]'>
+             <a href="https://computer-repair-shop-seven.vercel.app" target="_blank" rel="noopener noreferrer">
+                <img 
+                  className="transition-all duration-300 ease-in-out group-hover:brightness-75 group-hover:scale-105"
+                  src='/images/Repair.png' 
+                  alt="YC Directory" 
+                />
+              </a>
+             </div>
+             <h2>Computer Repair Shop</h2>
+            </div>
           </div>
         </div>
       </div>
