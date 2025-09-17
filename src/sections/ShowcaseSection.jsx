@@ -39,10 +39,10 @@ const ShowcaseSection = () => {
           <div className='first-project-wrapper' ref={project1}>
             {/* Add group class here */}
             <div className='image-wrapper group overflow-hidden rounded-lg'>
-              <a href="https://remarkable-hamster-62ce0a.netlify.app" target="_blank" rel="noopener noreferrer">
+              <a href="https://clash-t.netlify.app" target="_blank" rel="noopener noreferrer">
                 <img 
                   className="transition-all duration-300 ease-in-out group-hover:brightness-75 group-hover:scale-105"
-                  src='/images/Karate.png' 
+                  src='/images/karates.png' 
                   alt="Ryde" 
                 />
               </a>
