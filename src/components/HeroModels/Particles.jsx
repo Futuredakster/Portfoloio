@@ -1,7 +1,7 @@
 import { useRef, useMemo } from "react";
 import { useFrame } from "@react-three/fiber";
 
-const Particles = ({ count = 200 }) => {
+const Particles = ({ count = 50 }) => {
   const mesh = useRef();
 
   const particles = useMemo(() => {
@@ -19,15 +19,18 @@ const Particles = ({ count = 200 }) => {
     return temp;
   }, [count]);
 
-  useFrame(() => {
-    const positions = mesh.current.geometry.attributes.position.array;
-    for (let i = 0; i < count; i++) {
-      let y = positions[i * 3 + 1];
-      y -= particles[i].speed;
-      if (y < -2) y = Math.random() * 10 + 5;
-      positions[i * 3 + 1] = y;
+  useFrame((state, delta) => {
+    // Only update every few frames to reduce performance impact
+    if (state.clock.elapsedTime % 0.1 < delta) {
+      const positions = mesh.current.geometry.attributes.position.array;
+      for (let i = 0; i < count; i++) {
+        let y = positions[i * 3 + 1];
+        y -= particles[i].speed;
+        if (y < -2) y = Math.random() * 10 + 5;
+        positions[i * 3 + 1] = y;
+      }
+      mesh.current.geometry.attributes.position.needsUpdate = true;
     }
-    mesh.current.geometry.attributes.position.needsUpdate = true;
   });
 
   const positions = new Float32Array(count * 3);

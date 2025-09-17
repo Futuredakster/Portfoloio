@@ -31,7 +31,7 @@ export const counterItems = [
 
   export const expCards = [
     {
-      review: "Daniel’s curiosity and early passion for development began with building games in high school. His dedication to learning laid a strong foundation for his programming journey.",
+      review: "Daniel's curiosity and early passion for development began with building games in high school. His dedication to learning laid a strong foundation for his programming journey.",
       imgPath: "/images/exp1.png",
       logoPath: "/images/logo1.png",
       title: "High School Student – AP Computer Science",
@@ -55,7 +55,30 @@ export const counterItems = [
       ],
     },
     {
-      review: "Daniel’s initiative and technical skills truly shine through his karate tournament app. He built a complete full-stack solution from the ground up, showcasing both frontend polish and backend depth.",
+      review: "Daniel's collaborative work and innovative thinking showcased exceptional technical abilities in developing practical AI solutions for real-world healthcare challenges.",
+      imgPath: "/images/exp4.png",
+      logoPath: "/images/logo4.png",
+      title: "Frontend Developer & AI Engineer – CU Denver Spring Hackathon",
+      date: "Spring 2025",
+      responsibilities: [
+        "Collaborated with a team to train an AI model for healthcare insurance consultation and information retrieval.",
+        "Designed and developed an intuitive user interface that enables users to interact with AI through voice commands.",
+        "Created a user-friendly healthcare insurance advisor that provides personalized recommendations based on individual user needs and location.",
+      ],
+    },
+    {
+      review: "Daniel's professional internship experience demonstrated his ability to deliver production-quality solutions in a corporate environment while managing multiple responsibilities effectively.",
+      imgPath: "/images/exp5.png",
+      logoPath: "/images/logo5.png",
+      title: "Frontend Developer Intern – GBCS University",
+      date: "June 2025 - August 18, 2025",
+      responsibilities: [
+        "Developed and maintained a comprehensive reporting interface enabling seamless data sharing across multiple company departments.",
+        "Designed intuitive user interfaces that streamlined cross-departmental communication and report accessibility.",
+        "Identified and resolved frontend bugs in production environments, ensuring optimal user experience and system reliability.",
+      ],
+    },
+    {
       imgPath: "/images/exp3.png",
       logoPath: "/images/logo3.png",
       title: "Full Stack Developer – Karate Tournament App",
