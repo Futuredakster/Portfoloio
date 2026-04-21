@@ -71,15 +71,16 @@ const ShowcaseSection = () => {
             </div>
             <div className='project' ref={project3}>
              <div className='image-wrapper bg-[#ffe7eb]'>
-             <a href="https://chatfront-qq37.onrender.com" target="_blank" rel="noopener noreferrer">
-                <img 
+             <a href="https://www.aloxi.ai/" target="_blank" rel="noopener noreferrer">
+                <img
                   className="transition-all duration-300 ease-in-out group-hover:brightness-75 group-hover:scale-105"
-                  src='/images/chats.png' 
-                  alt="YC Directory" 
+                  src='/images/aloxi.png'
+                  alt="Aloxi AI"
                 />
               </a>
              </div>
-             <h2>Chat App</h2>
+             <h2>Aloxi AI</h2>
+             <p className='text-white-50 text-sm mt-1'>An AI-powered receptionist that handles client calls, schedules appointments, and sends SMS — available 24/7 with a custom knowledge base trained on your business.</p>
             </div>
              <div className='project' ref={project3}>
              <div className='image-wrapper bg-[#ffe7eb]'>

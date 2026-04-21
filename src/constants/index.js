@@ -89,6 +89,18 @@ export const counterItems = [
         "Wrote complex SQL queries and JOIN statements to manage participants, divisions, and bracket generation.",
       ],
     },
+    {
+      review: "Daniel's integration of cutting-edge AI voice technology into real-world business workflows demonstrates a rare ability to bridge the gap between intelligent systems and seamless user experiences.",
+      imgPath: "/images/aloxi.png",
+      logoPath: "/images/aloxi.png",
+      title: "AI Receptionist Integration – Aloxi.ai",
+      date: "2025 - Current",
+      responsibilities: [
+        "Leveraged Aloxi.ai's AI-powered receptionist platform to automate client-facing communications, replacing manual workflows with intelligent, always-on voice response systems.",
+        "Configured and deployed a custom AI knowledge base trained on business-specific data, enabling the system to accurately handle real-world client inquiries without human intervention.",
+        "Integrated automated appointment scheduling with calendar systems, streamlining booking workflows and eliminating scheduling conflicts across multiple communication channels.",
+      ],
+    },
   ];
   
    
