@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import { useRef } from 'react'
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
@@ -80,7 +80,7 @@ const ShowcaseSection = () => {
               </a>
              </div>
              <h2>Aloxi AI</h2>
-             <p className='text-white-50 text-sm mt-1'>An AI-powered receptionist that handles client calls, schedules appointments, and sends SMS — available 24/7 with a custom knowledge base trained on your business.</p>
+             <p className='text-white-50 text-sm mt-1'>A SaaS platform I built from scratch — an AI-powered receptionist that handles client calls, books appointments, and sends SMS autonomously 24/7.</p>
             </div>
              <div className='project' ref={project3}>
              <div className='image-wrapper bg-[#ffe7eb]'>

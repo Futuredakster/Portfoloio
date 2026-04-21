@@ -90,15 +90,15 @@ export const counterItems = [
       ],
     },
     {
-      review: "Daniel's integration of cutting-edge AI voice technology into real-world business workflows demonstrates a rare ability to bridge the gap between intelligent systems and seamless user experiences.",
+      review: "Building Aloxi.ai from the ground up demonstrates Daniel's exceptional ability to architect and ship a complete AI-powered SaaS product — from intelligent voice systems to real-time scheduling infrastructure.",
       imgPath: "/images/aloxi.png",
       logoPath: "/images/aloxi.png",
-      title: "AI Receptionist Integration – Aloxi.ai",
+      title: "Founder & Full Stack Developer – Aloxi.ai",
       date: "2025 - Current",
       responsibilities: [
-        "Leveraged Aloxi.ai's AI-powered receptionist platform to automate client-facing communications, replacing manual workflows with intelligent, always-on voice response systems.",
-        "Configured and deployed a custom AI knowledge base trained on business-specific data, enabling the system to accurately handle real-world client inquiries without human intervention.",
-        "Integrated automated appointment scheduling with calendar systems, streamlining booking workflows and eliminating scheduling conflicts across multiple communication channels.",
+        "Architected and built Aloxi.ai from scratch — a production SaaS platform featuring an AI-powered receptionist that handles real client calls, schedules appointments, and sends SMS autonomously 24/7.",
+        "Engineered an intelligent voice AI system with a custom knowledge base, enabling the platform to accurately understand and respond to real-world business inquiries without human intervention.",
+        "Designed and launched a full subscription billing system with tiered pricing, calendar integrations, multi-location support, and an analytics dashboard — taking the product from concept to paying customers.",
       ],
     },
   ];
